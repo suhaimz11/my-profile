@@ -11,7 +11,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           {/* Sticky Navigation Bar */}
           <header className="sticky top-0 z-10 bg-gray-900 shadow-md transition-all ease-in-out duration-300">
             <nav className="p-6 flex justify-between items-center max-w-7xl mx-auto">
-              <div className="font-bold text-lg text-white">Suhaim's Profile-Page</div>
+              <div className="font-bold text-lg text-white">Suhaim&apos;s Profile-Page</div>
               <ul className="flex space-x-6">
                 <li><a href="#section1" className="text-white hover:text-blue-400">Profile</a></li>
                 <li><a href="#section2" className="text-white hover:text-blue-400">Skills</a></li>
