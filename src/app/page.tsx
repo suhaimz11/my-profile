@@ -1,8 +1,7 @@
 import React from "react";
+import Image from "next/image"; // Import next/image
 
 const Page = () => {
-  
-
   return (
     <div className="space-y-32">
       {/* Section 1: Profile Section */}
@@ -13,11 +12,13 @@ const Page = () => {
       >
         <div className="text-center space-y-6">
           <div className="mt-8 mb-6">
-            <img
+            <Image
               src="/images/pic.jpg"
               alt="Suhaim Manna"
               className="w-52 h-52 rounded-full object-cover shadow-lg mx-auto transition-transform duration-500 hover:scale-105"
               style={{ objectPosition: "top 25%" }}
+              width={208}  // Set width for optimization
+              height={208} // Set height for optimization
             />
           </div>
 
@@ -29,7 +30,7 @@ const Page = () => {
               Software Engineer | Web Developer | Tech Enthusiast
             </p>
             <p className="mt-4 text-lg text-gray-200 px-4 md:px-0">
-              Hello! I'm a passionate software developer with a keen interest in building innovative and user-friendly web applications.
+              Hello! I&apos;m a passionate software developer with a keen interest in building innovative and user-friendly web applications.
             </p>
 
             <div className="mt-6 space-y-4 text-lg text-gray-300">
