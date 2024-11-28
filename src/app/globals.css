@@ -1,0 +1,53 @@
+/* src/app/globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3  {
+  margin: 0;
+  color: #ffffff;
+}
+p{
+  color: #d1d5db;
+}
+
+/* Optional: Add some transition effects to the sections */
+section {
+  transition: all 1s ease-in-out;
+}
+
+.bg-blue-100 {
+  background-color: #ebf8ff;
+}
+
+.bg-green-100 {
+  background-color: #f0fdf4;
+}
+
+.bg-red-100 {
+  background-color: #fee2e2;
+}
+
+/* Add smooth transitions for hover effects on the navigation links */
+a {
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #1d4ed8; /* Tailwind blue-600 color */
+}
